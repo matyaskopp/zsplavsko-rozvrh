@@ -8,15 +8,163 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>Základní škola Plavsko - rozvrh hodin</title>
 
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <style type="text/css">
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+  </style>
 
 </head>
 
-<body id="page-top">
+<body>
 
-<h1> Testovací stránky </h1>
+ <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Rozvrhy hodin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#r1">1. ročník</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#r2">2. ročník</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#r3">3. ročník</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#r4">4. ročník</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#r5">5. ročník</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Welcome to Scrolling Nav</h1>
+      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+    </div>
+  </header>
+-->
 
+  <section id="r1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <img src="1.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="r2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <img src="2.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="r3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <img src="3.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="r4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <img src="4.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="r5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <img src="5.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<!--
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; 2019</p>
+    </div>
+
+  </footer>
+-->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script>
+ <!--
+ (function($) {
+  "use strict"; // Start of use strict
+
+  // Smooth scrolling using jQuery easing
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 56)
+        }, 1000, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  // Activate scrollspy to add active class to navbar items on scroll
+  $('body').scrollspy({
+    target: '#mainNav',
+    offset: 56
+  });
+
+})(jQuery); // End of use strict
+-->   
+  </script>
 </body>
 
 </html>
