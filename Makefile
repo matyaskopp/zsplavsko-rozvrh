@@ -37,6 +37,12 @@ $(ZALOHA):
 dirs:
 	mkdir -p pdf png svg
 
+publish: build
+	for file in pdf/*.pdf; do cp $$file `echo $$file|sed "s@pdf\/.*_@docs\/@"` ;done
+	for file in png/*.png; do cp $$file `echo $$file|sed "s@png\/.*_@docs\/@"` ;done
+	git add docs/*.p*
+	git commit docs -m $(shell date '+"publishing %Y-%m-%d"')
+	git push
 
 clean:
 	rm -rf pdf
