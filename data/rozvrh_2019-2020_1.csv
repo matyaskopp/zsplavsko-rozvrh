@@ -7,7 +7,8 @@ den,zacatek,delka,vyucuje,predmet
 3,2,1,podrouzkova,Hv
 3,3,2,podrouzkova,Tv + Tv
 4,1,1,marusakova,Aj
-4,2,2,marusakova,Čt + Ps + M
+4,2,1,marusakova,Čt + Ps 
+4,3,2,marusakova,Čt + Ps + M
 5,1,2,podrouzkova,Čtenářská dílna
 5,3,2,podrouzkova,Vv + Pč
 5,5,1,spolecne,Rada
