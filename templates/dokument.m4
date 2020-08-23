@@ -21,8 +21,6 @@ m4_include(cas.m4)
 
 m4_include(rozvrh.m4)
 
-m4_define(`_SABLONAROZVRHU_',`rozvrh')
-
 
 \usepackage{csvsimple}
 \begin{filecontents*}{_DATA_}
