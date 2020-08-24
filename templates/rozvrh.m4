@@ -71,6 +71,8 @@
 \hodiny
 
 }{
+\\\tiskniden{6}
+\\\tiskniden{7}
 \cas
 \end{ganttchart}
 \vspace*{\fill}
