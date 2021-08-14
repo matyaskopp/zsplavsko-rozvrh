@@ -1,4 +1,6 @@
 ZALOHA = $(shell date '+backup-%Y-%m-%d')
+#ODDELOVAC=' a '
+ODDELOVAC=
 
 all:  build
 
@@ -14,7 +16,7 @@ png/%.png: svg/%.svg
 pdf/%.pdf: data/%.csv
 	set -e ;\
 	ROCNIK=$$(echo $(*F) |sed "s/.csv//"| cut -d'_' -f 2) ;\
-	VYUCUJE=$$(tail  -n +2 $^ |cut -d, -f4|grep -v spolecne|sort|uniq -c| sort -nr|sed "s/^ *//"|cut -d" " -f2|tr "\n" " "|sed "s/ $$//;s/^/\\\/;s/ / a \\\/g" ) ;\
+	VYUCUJE=$$(tail  -n +2 $^ |cut -d, -f4|grep -v spolecne|sort|uniq -c| sort -nr|sed "s/^ *//"|cut -d" " -f2|tr "\n" " "|sed "s/ $$//;s/^/\\\/;s/ /$(ODDELOVAC)\\\/g" ) ;\
 	m4 -P -I templates -D _DATA_=../$^ -D _ROCNIK_=$$ROCNIK -D _SABLONAROZVRHU_="rozvrh" -D _VYUCUJE_="$$VYUCUJE" templates/dokument.m4 | pdflatex  --output-directory pdf --jobname $(*F) -- ;\
 	m4 -P -I templates -D _DATA_=../$^ -D _ROCNIK_=$$ROCNIK -D _SABLONAROZVRHU_="rozvrhcasy" -D _VYUCUJE_="$$VYUCUJE" templates/dokument.m4 | pdflatex  --output-directory pdf --jobname $(*F)c -- ;\
 
