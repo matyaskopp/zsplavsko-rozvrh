@@ -25,6 +25,8 @@
     bar label font=\LARGE\bfseries,
     include title in canvas=false,       % no vertical grid in title
     podrouzkova/.style={bar/.style={draw=podrouzkova,fill=podrouzkova!10,rounded corners=1mm,line width=0.5mm}},
+    koppova/.style={bar/.style={draw=koppova,fill=koppova!10,rounded corners=1mm,line width=0.5mm}},
+    slamova/.style={bar/.style={draw=slamova,fill=slamova!10,rounded corners=1mm,line width=0.5mm}},
     marusakova/.style={bar/.style={draw=marusakova,fill=marusakova!10,rounded corners=1mm,line width=0.5mm}},
     demeterova/.style={bar/.style={draw=demeterova,fill=demeterova!10,rounded corners=1mm,line width=0.5mm}},
     janotova/.style={bar/.style={draw=janotova,fill=janotova!10,rounded corners=1mm,line width=0.5mm}},
@@ -62,6 +64,8 @@
     bar label font=\large\bfseries,
     include title in canvas=false,       % no vertical grid in title
     podrouzkova/.style={bar/.style={draw=podrouzkova,fill=podrouzkova!10,rounded corners=1mm,line width=0.5mm}},
+    koppova/.style={bar/.style={draw=koppova,fill=koppova!10,rounded corners=1mm,line width=0.5mm}},
+    slamova/.style={bar/.style={draw=slamova,fill=slamova!10,rounded corners=1mm,line width=0.5mm}},
     marusakova/.style={bar/.style={draw=marusakova,fill=marusakova!10,rounded corners=1mm,line width=0.5mm}},
     demeterova/.style={bar/.style={draw=demeterova,fill=demeterova!10,rounded corners=1mm,line width=0.5mm}},
     janotova/.style={bar/.style={draw=janotova,fill=janotova!10,rounded corners=1mm,line width=0.5mm}},

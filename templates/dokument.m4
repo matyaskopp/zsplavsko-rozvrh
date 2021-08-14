@@ -49,7 +49,7 @@ m4_include(rozvrh.m4)
 
 \end{_SABLONAROZVRHU_}
 \begin{center}
-\large Vyučuje _VYUCUJE_
+\large _VYUCUJE_
 \end{center}
 \end{document}
 
