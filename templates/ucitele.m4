@@ -5,7 +5,7 @@
 \definecolor{marusakova}{HTML}{e18905}
 \definecolor{demeterova}{HTML}{fbbd04}
 \definecolor{janotova}{HTML}{ff0000}
-\definecolor{soukupova}{HTML}{68b22e}
+\definecolor{soukupova}{HTML}{3b7991}
 \definecolor{jannova}{HTML}{f07e85}
 \definecolor{spolecne}{HTML}{efdf00}
 
