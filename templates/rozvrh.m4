@@ -31,6 +31,7 @@
     marusakova/.style={bar/.style={draw=marusakova,fill=marusakova!10,rounded corners=1mm,line width=0.5mm}},
     demeterova/.style={bar/.style={draw=demeterova,fill=demeterova!10,rounded corners=1mm,line width=0.5mm}},
     janotova/.style={bar/.style={draw=janotova,fill=janotova!10,rounded corners=1mm,line width=0.5mm}},
+    soukupova/.style={bar/.style={draw=soukupova,fill=soukupova!10,rounded corners=1mm,line width=0.5mm}},
     jannova/.style={bar/.style={draw=jannova,fill=jannova!10,rounded corners=1mm,line width=0.5mm}},
     spolecne/.style={bar/.style={draw=spolecne,fill=spolecne!10,rounded corners=2mm,line width=0.5mm}}
   ]{0}{400}
@@ -71,6 +72,7 @@
     marusakova/.style={bar/.style={draw=marusakova,fill=marusakova!10,rounded corners=1mm,line width=0.5mm}},
     demeterova/.style={bar/.style={draw=demeterova,fill=demeterova!10,rounded corners=1mm,line width=0.5mm}},
     janotova/.style={bar/.style={draw=janotova,fill=janotova!10,rounded corners=1mm,line width=0.5mm}},
+    soukupova/.style={bar/.style={draw=soukupova,fill=soukupova!10,rounded corners=1mm,line width=0.5mm}},
     jannova/.style={bar/.style={draw=jannova,fill=jannova!10,rounded corners=1mm,line width=0.5mm}},
     spolecne/.style={bar/.style={draw=spolecne,fill=spolecne!10,rounded corners=2mm,line width=0.5mm}}
   ]{0}{601}
