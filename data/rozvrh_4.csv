@@ -2,15 +2,15 @@ den,zacatek,delka,vyucuje,predmet
 1,1,2,jannova,Čj + M
 1,3,2,jannova,Čj + M
 1,6,1,koppova,Inf
-1,6,2,jannova,Čj + Čj
 2,1,2,jannova,Čj + M
 2,3,2,jannova,Čj + M
-3,1,2,jannova,Čj + Vl
-3,3,1,jannova,Pč
-3,4,2,jannova,Vv + Vv
-4,1,2,slamova,Př + Př
-4,3,2,jannova,Aj + Aj
+2,6,1,koppova,Aj
+3,1,2,slamova,Př + Př
+3,3,1,soukupova,Pč
+3,4,2,soukupova,Vv + Vv
+4,1,2,jannova,Čj + Vl
+4,3,2,koppova,Aj + Aj
 4,6,2,slamova,Tv + Tv
-5,1,2,jannova,Čtenářská dílna
-5,3,2,jannova,Čj + Hv
+5,1,2,jannova,Čj + Hv
+5,3,2,jannova,čtenářská dílna
 5,5,1,spolecne,Rada
