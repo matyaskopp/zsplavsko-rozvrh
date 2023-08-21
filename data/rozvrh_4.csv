@@ -6,12 +6,12 @@ den,zacatek,delka,vyucuje,predmet
 2,2,2,slamova,Př + Př
 2,4,1,soukupova,Pč
 2,6,2,soukupova,Vv + Vv
-3,1,1,jannova,M
-3,2,2,jannova,čtenářská dílna
-3,4,1,jannova,Hv
+3,1,2,jannova,M + Čj
+3,3,2,jannova,čtenářská dílna
 4,1,2,jannova,Čj + M
-4,3,2,jannova,Čj + M
+4,3,1,jannova,Čj + M
 4,6,1,koppova,Inf
 5,1,2,jannova,Čj + Aj
-5,3,2,jannova,Čj + M
+5,3,1,jannova,M
+5,4,1,jannova,Hv
 5,5,1,spolecne,Rada
