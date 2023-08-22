@@ -1,7 +1,7 @@
 den,zacatek,delka,vyucuje,predmet
 1,1,2,koppova,Čj + M
 1,3,2,koppova,Čj + Čj
-1,6,1,koppova,M
+1,5,1,soukupova,Hv
 2,1,2,koppova,Čj + M
 2,3,2,koppova,Čj + M
 2,6,1,koppova,Čj
@@ -9,7 +9,7 @@ den,zacatek,delka,vyucuje,predmet
 3,3,2,slamova,Tv + Tv
 4,1,2,soukupova,čtenářská dílna
 4,3,2,koppova,Čj + M
+4,6,1,koppova,M
 5,1,1,augustinova,Aj
 5,2,2,slamova,Prv + Prv
-5,4,1,soukupova,Hv
 5,5,1,spolecne,Rada
