@@ -18,7 +18,8 @@ pdf/%.pdf: data/%.csv
 	ROCNIK=$$(echo $(*F) |sed "s/.csv//"| cut -d'_' -f 2) ;\
 	VYUCUJE=$$(tail  -n +2 $^ |cut -d, -f4|grep -v spolecne|sort|uniq -c| sort -nr|sed "s/^ *//"|cut -d" " -f2|tr "\n" " "|sed "s/ $$//;s/^/\\\/;s/ /$(ODDELOVAC)\\\/g" ) ;\
 	m4 -P -I templates -D _DATA_=../$^ -D _ROCNIK_=$$ROCNIK -D _SABLONAROZVRHU_="rozvrh" -D _VYUCUJE_="$$VYUCUJE" templates/dokument.m4 | pdflatex  --output-directory pdf --jobname $(*F) -- ;\
-	m4 -P -I templates -D _DATA_=../$^ -D _ROCNIK_=$$ROCNIK -D _SABLONAROZVRHU_="rozvrhcasy" -D _VYUCUJE_="$$VYUCUJE" templates/dokument.m4 | pdflatex  --output-directory pdf --jobname $(*F)c -- ;\
+	m4 -P -I templates -D _DATA_=../$^ -D _ROCNIK_=$$ROCNIK -D _SABLONAROZVRHU_="rozvrhcasy" -D _VYUCUJE_="$$VYUCUJE" templates/dokument.m4 | pdflatex  --output-directory pdf --jobname $(*F)c -- 
+	pdfjam --nup 1x2 pdf/$*.pdf '1,1' --outfile pdf/$*_1x2.pdf
 
 
 build-and-backup-current-version: | build backup
