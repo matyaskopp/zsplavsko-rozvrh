@@ -1,12 +1,12 @@
 den,zacatek,delka,vyucuje,predmet
 1,1,2,koppova,Čj + M
 1,3,2,koppova,Čj + Čj
-1,5,1,soukupova,Hv
 2,1,2,koppova,Čj + M
 2,3,2,koppova,Čj + M
 2,6,1,koppova,Čj
 3,1,2,slamova,Vv + Pč
-3,3,2,slamova,Tv + Tv
+3,3,1,soukupova,Hv
+3,4,1,slamova,Tv 
 4,1,2,soukupova,čtenářská dílna
 4,3,2,koppova,Čj + M
 4,5,1,koppova,M
